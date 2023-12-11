@@ -6053,6 +6053,8 @@ vector<mutation_ac_changes> all_mutation_ac_changes = {
     ,mutation_ac_changes(MUT_THIN_METALLIC_SCALES,   mutation_activity_type::FULL,    TWO_THREE_FOUR)
     ,mutation_ac_changes(MUT_YELLOW_SCALES,          mutation_activity_type::FULL,    TWO_THREE_FOUR)
     ,mutation_ac_changes(MUT_SHARP_SCALES,           mutation_activity_type::FULL,    ONE_TWO_THREE)
+    // exoskeloton
+    ,mutation_ac_changes(MUT_EXOSKELETON,            mutation_activity_type::PARTIAL, ONE_TWO_THREE)
 };
 
 /**
