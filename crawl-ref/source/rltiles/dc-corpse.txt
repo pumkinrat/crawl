@@ -360,4 +360,7 @@ bunyip CORPSE_BUNYIP
 %sdir mon/humanoids/demonspawn
 demonspawn CORPSE_DEMONSPAWN
 
+# Muscid
+player/muscid/muscid CORPSE_MUSCID
+
 %corpse 0

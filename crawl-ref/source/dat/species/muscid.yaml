@@ -1,0 +1,72 @@
+enum: SP_MUSCID
+monster: MONS_MUSCID
+name: "Muscid"
+difficulty: Advanced
+difficulty_priority: 100
+aptitudes:
+  xp: 0
+  hp: -7
+  mp_mod: 1
+  mr: 7
+  fighting: 0
+  short_blades: False
+  long_blades: False
+  axes: False
+  maces_and_flails: False
+  polearms: False
+  staves: False
+  ranged weapons: False
+  throwing: -2
+  unarmed_combat: -1
+  armour: False
+  shields: False
+  dodging: 9
+  stealth: 3
+  spellcasting: 2
+  conjurations: 2
+  hexes: 2
+  summoning: 4
+  necromancy: 5
+  translocations: 4
+  transmutations: 5
+  fire_magic: 0
+  ice_magic: 0
+  air_magic: 4
+  earth_magic: 0
+  poison_magic: 2
+  invocations: 5
+  evocations: 1
+  shapeshifting: 5
+size: tiny
+str: 1
+int: 13
+dex: 13
+levelup_stat_frequency: 4
+levelup_stats:
+  - int
+  - dex
+mutations:
+  1:
+    MUT_EXOSKELETON: 1
+    MUT_ANTENNAE: 2
+    MUT_BUG_WINGS: 1
+    MUT_ACUTE_VISION: 1
+    MUT_MIASMA_IMMUNITY: 1
+    MUT_STRONG_WILLED: 1
+    MUT_ANTIMAGIC_BITE: 1
+  3:
+    MUT_EXOSKELETON: 1
+    MUT_BUG_WINGS: 1
+  5:
+    MUT_BUG_WINGS: 1
+  7:
+    MUT_EXOSKELETON: 1
+recommended_jobs:
+  - JOB_SUMMONER
+  - JOB_CONJURER
+  - JOB_NECROMANCER
+  - JOB_HEDGE_WIZARD
+  - JOB_SHAPESHIFTER
+  - JOB_AIR_ELEMENTALIST
+recommended_weapons:
+  - SK_UNARMED_COMBAT

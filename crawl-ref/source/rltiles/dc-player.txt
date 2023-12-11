@@ -165,6 +165,8 @@ cat9
 cat3 FELID_SILLY
 cat6
 cat10
+%sdir player/muscid
+muscid MUSCID
 %sdir player/base
 %end_ctg
 

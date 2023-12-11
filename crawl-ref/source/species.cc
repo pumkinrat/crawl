@@ -442,7 +442,13 @@ namespace species
 
     int arm_count(species_type species)
     {
-        return species == SP_OCTOPODE ? 8 : 2;
+        if (species == SP_OCTOPODE) {
+            return 8; // Octopodes have 8 arms
+        } else if ( (species == SP_FORMICID) or (species == SP_MUSCID) ) {
+            return 4; // Insects have 4 arms + 2 legs
+        } else {
+            return 2; // Everyone else have 2 arms
+        }
     }
 
     equipment_type sacrificial_arm(species_type species)
@@ -471,21 +477,22 @@ namespace species
     bool bans_eq(species_type species, equipment_type eq)
     {
         const int arms = arm_count(species);
-        // only handles 2 or 8
+        // only handles 2 or 8 // ( or 4 for Musicd and Formicid )
         switch (eq)
         {
         case EQ_LEFT_RING:
         case EQ_RIGHT_RING:
-            return arms > 2;
+            return arms > 2;  // Banned if more than two arms
         case EQ_RING_ONE:
         case EQ_RING_TWO:
         case EQ_RING_THREE:
         case EQ_RING_FOUR:
+            return arms <= 2; // Banned if only 2 or less arms
         case EQ_RING_FIVE:
         case EQ_RING_SIX:
         case EQ_RING_SEVEN:
         case EQ_RING_EIGHT:
-            return arms <= 2;
+            return arms <= 4; // Banned if only 4 or less arms
         // not banned by any species
         case EQ_AMULET:
         case EQ_RING_AMULET:

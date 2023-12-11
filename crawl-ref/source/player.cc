@@ -1863,6 +1863,10 @@ int player_movement_speed(bool check_terrain, bool temp)
     // Mutations: -2, -3, -4, unless innate and shapechanged.
     if (int fast = you.get_mutation_level(MUT_FAST))
         mv -= fast + 1;
+        
+    // Bug wings make you faster
+    if (int bugspeed = you.get_mutation_level(MUT_BUG_WINGS))
+        mv -= bugspeed +1;
 
     if (int slow = you.get_mutation_level(MUT_SLOW))
     {
@@ -2028,6 +2032,10 @@ static int _player_evasion_bonuses()
 
     if (you.has_mutation(MUT_TENGU_FLIGHT))
         evbonus += 4;
+        
+    // Bug wings level 3 helps Evasion 
+    if (you.get_mutation_level(MUT_BUG_WINGS)>=3)
+        evbonus += 3;
 
     // transformation penalties/bonuses not covered by size alone:
     if (you.get_mutation_level(MUT_SLOW_REFLEXES))
@@ -6699,7 +6707,8 @@ bool player::racial_permanent_flight() const
 {
     return has_mutation(MUT_TENGU_FLIGHT)
         || get_mutation_level(MUT_BIG_WINGS)
-        || has_mutation(MUT_FLOAT);
+        || has_mutation(MUT_FLOAT)
+        || has_mutation(MUT_BUG_WINGS); // Bug wings make you fly
 }
 
 /**

@@ -1797,20 +1797,20 @@ static const mutation_def mut_data[] =
   {"You feel slippery.", "", ""},
 },
 
-{ MUT_EXOSKELETON, 0, 2, mutflag::good, true,
+{ MUT_EXOSKELETON, 0, 3, mutflag::good, true,
   "exoskeleton",
 
   {"Your body is surrounded by an exoskeleton. (buggy)",
    "Your body is surrounded by a tough exoskeleton. (buggy)",
-   ""},
+   "Your body is surrounded by a very tough exoskeleton. (buggy)"},
 
   {"Your exoskeleton hardens.",
    "Your exoskeleton becomes even harder.",
-   ""},
+   "Your exoskeleton becomes even even harder"},
 
   {"Your exoskeleton softens.",
    "Your exoskeleton softens.",
-   ""},
+   "Your exoskeleton softens."},
 },
 
 { MUT_FUMES, 0, 2, mutflag::good, false,
@@ -2464,6 +2464,21 @@ static const mutation_def mut_data[] =
   {"Your long tongue fully drains potion bottles. (2x potion effects)", "", ""},
   {"Your tongue grows exceptionally long.", "", ""},
   {"Your tongue shrinks into a sad, ordinary nub.", "", ""},
+},
+
+// Bug Wings (Muscid)
+{ MUT_BUG_WINGS, 1, 3, mutflag::good, false,
+  "bug wings",
+
+  {"You have chitin wings. (Fly, Speed+)",
+   "You have strong chitin wings. (Fly, Speed++)", 
+   "You have elegant chitin wings. (Fly, Speed+++, EV +3)"},
+  {"You grow buglike wings madeof chitin.",
+   "Your buggy wings strengthen, allowing you to fly faster.", 
+   "Your feel your buggy wings beat in perfect synchronicity."},
+  {"Your buggy wings shrivel up and disapear", 
+    "Your buggy wings weaken.", 
+    "Your buggy wings feel clumsy."},
 },
 
 };
