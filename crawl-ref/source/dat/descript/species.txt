@@ -131,3 +131,8 @@ Vine Stalker
 Frail symbionts, Vine Stalkers cannot regain health from potions. Their magical
 reserves absorb damage, and they pack a magic-restoring bite.
 %%%%
+Muscid
+
+Muscids are tiny fast flying insects. They are skilled in many forms of magic,
+are difficult to hit, but have very low health.
+%%%%
