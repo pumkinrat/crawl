@@ -2033,7 +2033,7 @@ static int _player_evasion_bonuses()
     if (you.has_mutation(MUT_TENGU_FLIGHT))
         evbonus += 4;
         
-    // Bug wings level 3 helps Evasion 
+    // Bug wings level 3 helps Evasion // not sure if this works
     if (you.get_mutation_level(MUT_BUG_WINGS)>=3)
         evbonus += 3;
 

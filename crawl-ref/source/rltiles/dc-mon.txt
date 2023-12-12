@@ -1233,6 +1233,8 @@ draco-job-shifter DRACO_SHIFTER
 mon/vault/draconian_monk_ghost MONS_FAINT_GREY_DRACONIAN_MONK
 ## Muscid House Fly
 player/muscid/muscid MONS_MUSCID
+## Pumkin
+mon/fungi_plants/pumkin MONS_PUMKIN
 
 %rim 1
 mon/nonliving/test_spawner MONS_TEST_SPAWNER

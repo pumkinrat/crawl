@@ -2311,4 +2311,10 @@ static const mon_spellbook mspell_list[] =
        { SPELL_PHANTOM_MIRROR, 33, MON_SPELL_MAGICAL },
       }
     },
+    
+    {  MST_SIMPLE_MAGIC,
+      {
+       { SPELL_MAGIC_DART, 7, MON_SPELL_WIZARD },
+      }
+    },
 };

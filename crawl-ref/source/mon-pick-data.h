@@ -61,6 +61,8 @@ static const vector<pop_entry> population[] =
 // The weakest of the weak.
   {  1,  3, 1000, FLAT, MONS_BAT },
   {  1,  3, 1000, FLAT, MONS_RAT },
+  {  1,  3, 1000, FLAT, MONS_MUSCID },
+  {  1,  3, 1000, FLAT, MONS_PUMKIN },
   {  1,  3,  640, FLAT, MONS_FRILLED_LIZARD},
 
 // Pretty weak, but not quite bottom tier.

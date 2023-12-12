@@ -444,7 +444,7 @@ namespace species
     {
         if (species == SP_OCTOPODE) {
             return 8; // Octopodes have 8 arms
-        } else if ( (species == SP_FORMICID) or (species == SP_MUSCID) ) {
+        } else if ( mutation_level(species, MUT_QUADRUMANOUS) ) {
             return 4; // Insects have 4 arms + 2 legs
         } else {
             return 2; // Everyone else have 2 arms

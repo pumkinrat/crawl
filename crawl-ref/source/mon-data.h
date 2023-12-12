@@ -992,6 +992,20 @@ static monsterentry mondata[] =
     {TILEP_MONS_VINE_STALKER}, TILE_ERROR
 },
 
+// Pumkin
+{
+    MONS_PUMKIN, 'o', LIGHTRED, "pumkin",
+    M_NO_SKELETON,
+    MR_NO_FLAGS,
+    10, MONS_PUMKIN, MONS_PUMKIN, MH_NATURAL, 20,
+    { {AT_HIT, AF_PLAIN, 5}, AT_NO_ATK, AT_NO_ATK, AT_NO_ATK },
+    2, 60,    //- row 6: hit dice, hit points
+    4, 7, MST_NO_SPELLS, false, S_SQUEAL,
+    I_HUMAN, HT_LAND, 10, DEFAULT_ENERGY,
+    MONUSE_WEAPONS_ARMOUR, SIZE_LITTLE, MON_SHAPE_PLANT,
+    {TILEP_MONS_PUMKIN}, TILE_ERROR
+},
+
 // goblins and other small humanoids ('g')
 {
     MONS_GOBLIN, 'g', LIGHTGREY, "goblin",
@@ -2757,9 +2771,9 @@ DUMMY(MONS_MOTH, 'y', WHITE, "moth", TILEP_MONS_MOTH_OF_WRATH)
     M_NO_SKELETON | M_FLIES | M_SPEAKS | M_SEE_INVIS,    //- row 2: monster flags
     MR_RES_MIASMA,    //- row 3: monster resistance flags
     10, MONS_MUSCID, MONS_MUSCID, MH_NATURAL, 100,    //- row 4: experience modifier, genus, species, holiness, willpower
-    { {AT_BITE, AF_ANTIMAGIC, 5}, AT_NO_ATK, AT_NO_ATK, AT_NO_ATK },    //- row 5: damage for each of four attacks
+    { {AT_BITE, AF_ANTIMAGIC, 2}, AT_NO_ATK, AT_NO_ATK, AT_NO_ATK },    //- row 5: damage for each of four attacks
     2, 20,    //- row 6: hit dice, hit points
-    5, 25, MST_NO_SPELLS, true, S_BUZZ,    //- row 7: AC, evasion, spells, corpse, shouts
+    1, 25, MST_NO_SPELLS, true, S_BUZZ,    //- row 7: AC, evasion, spells, corpse, shouts
     I_HUMAN, HT_LAND, 20, DEFAULT_ENERGY,    //- row 8: intel, habitat, speed, energy_usage
     MONUSE_NOTHING, SIZE_TINY, MON_SHAPE_INSECT_WINGED,    //- row 9: gmon_use class, body size, body shape
     {TILEP_MONS_MUSCID}, TILE_CORPSE_MUSCID    //- row 10: tile, corpse
