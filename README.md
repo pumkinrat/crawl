@@ -1,6 +1,6 @@
 # Dungeon Crawl Pumpkin Puree (Fork of Dungeon Crawl Stone Soup)
 
-Dungeon Crawl Pumkin Puree is a game about exploration, tactical combat, magic and possibly more.
+Pumpkincrawl is a game about exploration, combat, magic and possibly more.
 The Game stars a variety of Creatures some of which are playable...
 
 ## Contents
