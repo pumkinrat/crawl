@@ -3405,5 +3405,9 @@ within. It is the last sight you will ever see.
 %%%%
 Muscid
 
-a tiny flying insect.
+A tiny flying insect.
+%%%%
+Pumpkin
+
+A small sentient pumpkin creature that uses it's foliage to move around.
 %%%%

@@ -992,18 +992,18 @@ static monsterentry mondata[] =
     {TILEP_MONS_VINE_STALKER}, TILE_ERROR
 },
 
-// Pumkin
+// Pumpkin
 {
-    MONS_PUMKIN, 'o', LIGHTRED, "pumkin",
+    MONS_PUMPKIN, 'o', LIGHTRED, "pumpkin",
     M_NO_SKELETON,
     MR_NO_FLAGS,
-    10, MONS_PUMKIN, MONS_PUMKIN, MH_NATURAL, 20,
+    10, MONS_PUMPKIN, MONS_PUMPKIN, MH_NATURAL, 20,
     { {AT_HIT, AF_PLAIN, 5}, AT_NO_ATK, AT_NO_ATK, AT_NO_ATK },
     2, 60,    //- row 6: hit dice, hit points
     4, 7, MST_NO_SPELLS, false, S_SQUEAL,
     I_HUMAN, HT_LAND, 10, DEFAULT_ENERGY,
     MONUSE_WEAPONS_ARMOUR, SIZE_LITTLE, MON_SHAPE_PLANT,
-    {TILEP_MONS_PUMKIN}, TILE_ERROR
+    {TILEP_MONS_PUMPKIN}, TILE_ERROR
 },
 
 // goblins and other small humanoids ('g')

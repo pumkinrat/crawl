@@ -1,15 +1,14 @@
-# Dungeon Crawl Pumkin Soup (Fork of Dungeon Crawl Stone Soup)
+# Dungeon Crawl Pumpkin Puree (Fork of Dungeon Crawl Stone Soup)
 
-Dungeon Crawl Pumkin Soup is a game about exploration, tactical combat, magic and possibly more.
-The Game stars a variety of Creatures some of which are playable.
+Dungeon Crawl Pumkin Puree is a game about exploration, tactical combat, magic and possibly more.
+The Game stars a variety of Creatures some of which are playable...
 
 ## Contents
 
 1. [How to Play](#how-to-play)
 2. [Changes](#changes)
-3. [Community](#check-out-these-links)
-4. [License and history information](#license-and-history-information)
-5. [Compile the Game](#compiling-the-game)
+3. [License and history information](#license-and-history-information)
+4. [Compile the Game](#compiling-the-game)
 
 ## How to Play
 
@@ -19,18 +18,11 @@ The Game stars a variety of Creatures some of which are playable.
 These are some of the Changes.
 * Added playable Species and Monsters:
     + Muscid (a fly like species and monster)
-    + Pumkin (just a sentient pumkin monster)
+    + Pumpkin (just a sentient pumpkin monster)
 * Mutations/Abilities/etc.:
     + Bug Wings (grants player speedy flight - used by Muscid)
     + Exoskeleton Mutation now provides AC
 * Quadrumanous creatures can wear 4 rings
-
-## Check out these links
-
-'Dungeon Crawl Pumkin Soup' as the name suggests is a fork of 'Dungeon Crawl Stone Soup' so check out the original if you haven't already:
-* DCSS official homepage: [crawl.develz.org](https://crawl.develz.org/)
-* DCSS community forum: [tavern.dcss.io](https://tavern.dcss.io/)
-* official DCSS Github repository: [Github DCSS](https://github.com/crawl/crawl)
 
 ## License and history information
 
